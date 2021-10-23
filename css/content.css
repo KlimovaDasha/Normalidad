@@ -1,0 +1,333 @@
+@import 'font.css';
+
+*,
+*::after,
+*::before {
+  	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Normalidad';
+	font-size: 24px;
+	font-weight: 400;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+ text-decoration: none;
+ color: inherit;
+}
+
+.home {
+	margin: 0 auto;
+	padding: 145px 0 68px 53px;
+	width: 1353px;
+	background-color: #FF603D;
+	border: 7px solid #000;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	width: 1275px;
+	margin: 0 auto;
+}
+
+.container__left {
+	width: 609px;
+	border-right: 8px solid #000;
+}
+
+.container__right {
+	width: 615px;
+	padding-left: 58px;
+}
+
+.home img {
+	display: block;
+}
+
+.white {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.white img {
+	display: block;
+}
+
+.time {
+	padding: 52px 0 58px;
+	border-top: 8px solid #000;
+	border-bottom: 8px solid #000;
+	background-color: #FFF4E2;
+}
+
+.time__text {
+	width: 1353px;
+	margin: 0 auto;
+	padding-left: 172px;
+	padding-right: 207px;
+}
+
+.weight {
+	border-bottom: 8px solid #000;
+}
+
+.weight__title {
+	font-size: 100px;
+	padding: 29px 0 25px;
+}
+
+.weight__bold {
+	margin-left: 131px;
+	height: 100%;
+}
+
+.text__first {
+	width: 453px;
+	margin-left: -49px;
+}
+
+.text__second {
+	width: 500px;
+}
+
+.text__first,
+.text__second {
+	padding: 52px 0;
+}
+
+.container__left .name__content {
+	margin-left: -50px;
+}
+
+.name__content {
+	padding: 45px 0 63px;
+}
+
+.name {
+	border-top: 8px solid #000;
+}
+
+.name__title {
+	width: 500px;
+	font-size: 63px;
+	margin-bottom: 45px;
+	line-height: 1.2em;
+}
+
+.name__text {
+	line-height: 32px;
+}
+
+.name .container__right .name__text {
+	width: 556px;
+}
+.name .container__left .name__text {
+	width: 565px;
+}
+
+
+.save {
+	border-top: 8px solid #000;
+	background: #FFF4E2 url('../img/save-bg.svg') no-repeat 1000px 0% / cover;
+}
+
+.save .container__right {
+	background: #FF603D;
+}
+
+.container__left .save__content {
+	margin-left: -50px;
+}
+
+.save__text {
+	width: 543px;
+}
+
+.container__right .save__text {
+	width: 579px;
+}
+
+.save__content {
+	padding: 49px 0;
+}
+
+.save__img {
+	margin-bottom: 54px;
+	width: 506px;
+	height: 397px;
+	background: url('../img/save-img-1.png') no-repeat center center / contain;
+}
+
+.container__right .save__img {
+	background: url('../img/save-img-2.png') no-repeat center center / contain;
+}
+
+.letter {
+	border-top: 8px solid #000;
+
+}
+
+.letter__img {
+	background: url('../img/letter-img.svg') no-repeat 0 -40px / cover;
+	width: 1400px;
+	height: 595px;
+	margin: 0 auto;
+}
+
+.form {
+	overflow: hidden;
+	border-top: 8px solid #000;
+}
+
+.form__text {
+	width: 572px;
+}
+
+.form__content {
+	padding-bottom: 41px;
+}
+
+.container__left .form__content {
+	margin-left: -50px;
+}
+
+.container__left .form__img {
+	width: 531px;
+	height: 433px;
+	margin-bottom: 125px;
+}
+
+.container__right .form__img {
+	margin-top: 60px;
+	width: 517px;
+	height: 381px;
+	margin-bottom: 150px;
+}
+
+.container__left .form__img img {
+	margin-top: -64px;
+	margin-left: -63px;
+	display: block;
+}
+
+.container__right .form__img img {
+	margin-top: -95px;
+	margin-left: -80px;
+	display: block;
+}
+
+.designer {
+	border-top: 8px solid #000;
+	background-color: #FFF4E2;
+	padding: 49px 0;
+}
+
+.designer__text {
+	margin: 0 auto;
+	width: 1018px;
+}
+
+.font {
+	border-top: 8px solid #000;
+}
+
+.font__container {
+	width: 1330px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.font__content {
+	border-bottom: 6px solid #000;
+}
+
+.font__left {
+	border-right: 8px solid #000;
+	width: 835px;
+}
+
+.font__right {
+	width: 495px;
+	padding-left: 49px;
+}
+
+.font__title {
+	padding: 40px 0;
+	font-size: 64px;
+}
+
+.two__img {
+	width: 1115px;
+	height: 593px;
+	margin: 0 auto;
+	background: url('../img/two-img.svg') no-repeat center center;
+}
+
+.lang {
+	padding: 35px 0 35px;
+	border-top: 6px solid #000;
+	background-color: #FF603D;
+	font-size: 64px;
+}
+
+.lang__container {
+	margin: 0 auto;
+	width: 1310px;
+}
+
+.lang__title {
+	margin-bottom: 25px;
+}
+
+.lang__text span {
+	margin-right: 18px;
+	margin-bottom: 15px;
+}
+
+.black {
+	overflow: hidden;
+	height: 770px;
+}
+
+.black img {
+	display: block;
+	width: 100%;
+	object-fit: cover;
+}
+
+.russia {
+	padding: 52px 0;
+}
+
+.russia__text {
+	width: 933px;
+	margin: 0 auto;
+}
+
+.footer {
+	padding: 80px 0 120px;
+	color: #fff;
+	background-color: #000;
+}
+
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+	width: 1290px;
+	margin: 0 auto;
+}
